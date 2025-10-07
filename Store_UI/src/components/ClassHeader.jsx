@@ -49,4 +49,4 @@ class ClassHeader extends Component
     }
 }
 
-export default ClassHeader;
+export default ClassHeader;     // Class Component
