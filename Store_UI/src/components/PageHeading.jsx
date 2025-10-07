@@ -7,7 +7,7 @@ export default function PageHeading(props)
     <div className="page-heading-container">
         <PageTitle title="Explore Sticker"/>
         <p className="page-heading-paragraph">
-          {props.chidren}
+          {props.children}
         </p>
     </div>
   );
