@@ -1,10 +1,11 @@
 import Header from "./components/Header";
+import ClassHeader from "./components/ClassHeader";
 
 function App() 
 {
   return(
-    <Header/>
+    <ClassHeader/>
   );
 }
 
-export default App
+export default App;
