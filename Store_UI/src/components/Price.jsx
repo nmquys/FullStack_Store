@@ -5,8 +5,8 @@ export default function Price({currency, price})
   return 
   (
     <>
-    {currency}
-    <span>{price}</span>
+      {currency}
+      <span>{price}</span>
     </>
   );
 }
