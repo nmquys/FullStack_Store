@@ -9,7 +9,8 @@ export default function ProductCard({product}) {
             <img 
             src={product.imageUrl} 
             alt={product.name} 
-            className="product-card-image"/>
+            className="product-card-image"
+            />
             <div className="product-card-details">
                 <h2 className="product-card-title">{product.name}</h2>
                 <p className="product-card-description">{product.description}</p>
