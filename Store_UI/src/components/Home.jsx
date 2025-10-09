@@ -8,6 +8,7 @@ export default function Home()
                 Add a touch of creativity to your space with our wide rage of fun 
                 and unique stickers. Perfect for any occasion!
             </PageHeading>
+            <ProductListings />
         </div>
     );
 }
