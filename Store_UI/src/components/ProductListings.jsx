@@ -1,7 +1,7 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 
-export default function ProductListings({products}) 
+export default function ProductListings({ products }) 
 {
   return (
     <div className="product-listings-container">

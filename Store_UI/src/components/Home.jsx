@@ -1,4 +1,6 @@
+import products from "../data/products";
 import PageHeading from "./PageHeading";
+import ProductListings from "./ProductListings";
 
 export default function Home()
 {
@@ -8,7 +10,7 @@ export default function Home()
                 Add a touch of creativity to your space with our wide rage of fun 
                 and unique stickers. Perfect for any occasion!
             </PageHeading>
-            <ProductListings />
+            <ProductListings products={products}/>
         </div>
     );
 }
